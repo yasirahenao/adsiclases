@@ -1,0 +1,38 @@
+@import url(general.css);
+
+.contenedor {
+  background-color: lightgreen;
+  align-items: center;
+  border-radius: 15px;
+  border: 8px soild #ccc;
+  padding: 40px;
+  margin: 100px auto;
+  width: 300px;
+  height: 100%;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+@font-face {
+  font-family: "yasira";
+  src: url("yasira-Dalgona.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  font-family: "yasira";
+  text-transform: uppercase;
+}
+/* @medida: 
+screen,print,project,*/
+@media print {
+  body {
+    font-size: 10pt;
+    font-family: "Times New Roman", times, serif;
+  }
+}
+.contenedor {
+  column-count: 2;
+  border: none;
+}
+

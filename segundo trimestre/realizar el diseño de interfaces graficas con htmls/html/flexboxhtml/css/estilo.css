@@ -1,0 +1,14 @@
+.contenedor {
+  display: flex;
+  border-radius: 5px;
+  border-width: 5px;
+  border-color: blueviolet;
+ 
+}
+
+.elemento {
+  width: 20%;
+  border-radius: 5px;
+  border-width: 5px;
+  border-color: blueviolet;
+}

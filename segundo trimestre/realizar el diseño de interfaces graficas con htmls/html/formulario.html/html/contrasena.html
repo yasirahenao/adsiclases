@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="emplo.php"="" method="POST" class="" id="">
+        <fieldset>
+            <legend>CONTRASEÑA</legend>
+            <label for="clave">CONTRASEÑA</label>
+            <!--1.solo ingresa numeros  <input type="password" name="clave" required minlength="1" maxlength="5" pattern="[0-9]+"
+                title="solo digite numeros, total 5 numeros ">-->
+
+            <!-- 2. solo letras mayusculas , 5 caracteres entre 1 y 5  <input type="password" name="clave" required minlength="1" maxlength="5" pattern="[A-Z]+" 
+            title="ingrese solo mayusculas , cinco caracteres "> -->
+
+            <!--<input type="password" name="clave" required minlength="8" maxlength="15" pattern="[A-Z]+[0-9]+"
+                title="ingrese solo mayusculas  y numeros(8-15) ">-->
+
+            <!-- TAREA 1- SOLO MAYUSCULAS Y 3 NUMEROS.CARACTERES DE 6-15
+                2- MAYUSCULAS, MINUSCULAS,NUMEROS Y SIGNOS ESPECIALES CON EL PUNTO(.) O EL ASTERISCO(*). DEBE DE EMPEZAR CON LETRAS SE INGRESA DESDE 8-16
+                SECUENCIALES 
+            CINDICIONALES
+        CICLOS: PARA,HAGA,HAGA MIENTRAS
+    VECTORES 
+MATRICES-->
+            <!--<input type="password" name="clave" required minlength="6" maxlength="15" pattern="[A-Z]+[0-9)[3]+"
+                title="solo mayusculas y 3 numeros (6_15) ">-->
+            <input type="password" name="clave" required minlength="8" maxlength="16"
+                pattern="[A-Za-z][A-Za-z0-9]*[0-9][A-Za-z0-9]*(\ .| \ *)" title="mayusculas, minusculas, caracteres especiales, empiece por letras (0-16)>
+
+        </fieldset>
+        <input type=" submit" value="enviar">
+    </form>
+</body>
+
+</html>
