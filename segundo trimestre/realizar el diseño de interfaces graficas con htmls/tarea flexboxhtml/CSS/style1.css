@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor1 {
+  width: 90%;
+  padding: 5px;
+  margin: auto;
+  border-radius: 5px;
+  border: 2px solid violet;
+
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.elemento1 {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 300px;
+  margin: 2px;
+  border: 2px solid blue;
+  border-radius: 5px;
+  background: violet;
+  padding: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  flex: 1;
+  align-items: center;
+  color: rgb(6, 94, 89);
+}
+.contenedor2 {
+  width: 90%;
+  padding: 5px;
+  margin: auto;
+  border-radius: 5px;
+  border: 2px solid lightseagreen;
+  /* Flexbox */
+  display: flex;
+  flex-flow: row wrap;
+  height: 800px;
+}
+header {
+  border: 2px solid violet;
+  border-radius: 5px;
+  background: blue;
+  width: 100%;
+  height: 20%;
+}
+.main {
+  border: 2px solid violet;
+  border-radius: 5px;
+  background: blue;
+  flex: 1;
+  height: 58%;
+}
+.aside {
+  border: 2px solid violet;
+  border-radius: 5px;
+  background: blue;
+  width: 20%;
+  height: 58%;
+}
+footer {
+  border: 2px solid violet;
+  border-radius: 5px;
+  background: blue;
+  width: 100%;
+  height: 20%;
+}
+.contenedor3 {
+  width: 90%;
+  padding: 5px;
+  margin: auto;
+  border-radius: 5px;
+  border: 2px solid lightseagreen;
+  /* Flexbox */
+  display: flex;
+  flex-flow: row wrap;
+  height: 800px;
+}
+header {
+  border: 2px solid violet;
+  border-radius: 5px;
+  background: blue;
+  width: 100%;
+  height: 20%;
+  justify-content: space-between;
+  display: flex;
+}
+.main {
+  border: 2px solid violet;
+  border-radius: 5px;
+  background: blue;
+  flex: 1;
+  height: 58%;
+}
+.aside {
+  border: 2px solid violet;
+  border-radius: 5px;
+  background: blue;
+  width: 20%;
+  height: 58%;
+}
+footer {
+  border: 2px solid violet;
+  border-radius: 5px;
+  background: blue;
+  width: 100%;
+  height: 20%;
+}
+.logo {
+  border: 2px solid violet;
+  border-radius: 5px;
+  background: white;
+  align-items: center;
+  display: flex;
+  width: 50%;
+  flex: 1;
+
+  padding: 10px;
+}
+nav {
+  border: 2px solid violet;
+  border-radius: 5px;
+  background: white;
+  align-items: center;
+  display: flex;
+  width: 50%;
+  flex: 1;
+  justify-content: space-around;
+}
+
+body {
+  background-color: black;
+}
+h1 {
+  color: violet;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 30pt;
+}
